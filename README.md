@@ -109,3 +109,16 @@ _**Langkah**_
 - lalu lakukan test ping naik.gunung.semerud05.pw pada client GRESIK
 
 ![image](https://user-images.githubusercontent.com/57980671/99141291-96a30b80-267c-11eb-87ad-8fc399105d2a.png)
+
+### Nomor 8
+Domain http://semeruyyy.pw memiliki DocumentRoot pada /var/www/semerud05.pw
+
+_**Langkah**_
+- pastikan php5 dan apache sudah terinstall
+
+![image](https://user-images.githubusercontent.com/57980671/99147600-e00f4d00-26b4-11eb-886e-bcd93331d1d9.png)
+- Pindah ke directory /etc/apache2/sites-available
+- Buka file default
+- tambahkan "semerud05.pw pada "DocumentRoot /var/www/" dan "<Directory /var/www>"
+
+![image](https://user-images.githubusercontent.com/57980671/99147827-89a30e00-26b6-11eb-92ea-a15dcc67e3d9.png)
